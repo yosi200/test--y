@@ -1,0 +1,17 @@
+.div1 {
+    border: 1px solid red; /* Thin red border */
+    font-size: 24px; /* Increase font size */
+    border-radius: 15px;
+    padding: 10px; 
+}
+.div2 {
+    font-weight: bold; 
+    font-style: italic; 
+    padding: 10px; 
+.div3 {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); 
+    background-color: black; 
+    color: white; 
+    font-family: 
+    padding: 10px; 
+}

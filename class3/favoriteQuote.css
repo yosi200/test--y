@@ -1,0 +1,31 @@
+/* Ensure the body takes up the full height of the viewport and center its content */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif; /* Use a clean font for readability */
+    background-color: #f9f9f9; /* Light background color for contrast */
+}
+
+/* Style for the blockquote */
+blockquote {
+    border: 2px solid #000000; /* Solid black border */
+    border-radius: 10px; /* Optional: Rounded corners for the frame */
+    padding: 20px; /* Space between the quote and the frame */
+    background-color: #ffffff; /* White background for the blockquote */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for a framed effect */
+    max-width: 600px; /* Optional: Limit the maximum width */
+    width: 100%; /* Ensure it fits within the viewport */
+    text-align: center; /* Center the text inside the blockquote */
+    margin: 0; /* Remove default margin */
+}
+
+/* Style for the citation */
+blockquote cite {
+    display: block; /* Display citation on a new line */
+    margin-top: 10px; /* Space above the citation */
+    font-style: italic; /* Italicize the citation */
+    color: #666666; /* Slightly lighter color for the citation */
+}

@@ -1,6 +1,6 @@
 .div1, .div2, .div3, .div4 {
     position: relative;
-    border: 1px solid black;
+    border: 2px solid black;
     /* כאן נקבע את הערכים של top, bottom, left ו-right לכל div */
 }
 
@@ -8,6 +8,8 @@
     position: relative;
     width: 100px;
     height: 100px;
+    background-color: white;
+
 
 }
 
@@ -17,20 +19,26 @@
     height: 100px;
     left:70px;
     top: 70px;
+    background-color: white;
+
 
 }
 
 .div3 {
     position: relative ;
     width: 280px;
-    height: 70px;
-    bottom: -60px;
+    height: 80px;
+    bottom: -40px;
+    background-color: white;
+
 }
 
 .div4 {
     position:relative;
     width: 70px;
-    height: 280px;
+    height: 260px;
     left: 200px;
-    bottom: 173px;
+    bottom: 185px;
+    background-color: white;
+
 }

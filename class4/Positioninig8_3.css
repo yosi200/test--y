@@ -8,6 +8,7 @@
     position: relative;
     width: 100px;
     height: 100px;
+
 }
 
 .div2 {
@@ -16,6 +17,7 @@
     height: 100px;
     left:70px;
     top: 70px;
+
 }
 
 .div3 {
@@ -27,7 +29,7 @@
 
 .div4 {
     position:relative;
-    width: 73px;
+    width: 70px;
     height: 280px;
     left: 200px;
     bottom: 173px;

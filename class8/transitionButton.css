@@ -1,0 +1,42 @@
+*{margin-top:100px;
+  margin-left: 100px;
+  background-color: rgb(185, 185, 185);
+  grid: auto / auto auto auto;}
+
+  @media (max-height: 666px) {
+.TranslateY {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(185, 185, 185);
+    transform: translateY(50px) translateX(100px) rotate(45deg) scale(2) skew(20deg, 10deg);
+  }
+  
+  .TranslateX { 
+    width: 300px;
+    height: 300px;
+    background-color: rgb(185, 185, 185);
+    transform: translateY(50px) translateX(100px) rotate(45deg) scale(2) skew(20deg, 10deg);
+  }
+
+    .Rotate {
+      width: 300px;
+      height: 300px;
+    background-color: rgb(185, 185, 185);
+    transform: translateY(50px) translateX(100px) rotate(45deg) scale(2) skew(20deg, 10deg);
+  }
+  
+  .Scale {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(185, 185, 185);
+    transform: translateY(50px) translateX(100px) rotate(45deg) scale(2) skew(20deg, 10deg);
+  }
+  
+  .Skew {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(185, 185, 185);
+    transform: translateY(50px) translateX(100px) rotate(45deg) scale(2) skew(20deg, 10deg);
+  }
+  
+  }

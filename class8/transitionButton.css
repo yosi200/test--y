@@ -58,7 +58,7 @@
   content:"TranslateY";
   align-content: center;
   position: absolute;
-  width: 200px;
+  width: 200px;;
   height: 100px;
   background-color:blue;
   transform:TranslateX(200px);
@@ -67,61 +67,36 @@
 
 
 /*______________________________________________________________________________________________________*/
-  .btn3 { 
-    width: 200px;
-    height: 100px;
-    background-color: gray;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .btn3::before{
-    content:""; 
-    align-content: center;
-    width: 200px;
-    height: 100px;
-    background-color:yellow;
-    transform: rotate(0deg);
-    position:absolute;
-    transform: translate(-100px,-100px);
-    opacity:1s ease;
-    transform:1s ease;
+.btn3 { 
+  width: 200px;
+  height: 100px;
+  background-color: gray;
+  position: relative;
+  overflow: hidden;
+}
 
-  }   
+.btn3::before{
+  content:""; 
+  align-content: center;
+  width: 200px;
+  height: 100px;
+  background-color:gray;
+  transform: translate(0px,0px);
+  position:absolute;
+  top: 0;
+  left: 0;
+} 
 
-  .btn3:hover::before{
-    content:"";
-    align-content: left;
-    position: relative;
-    width: 100px;
-    height: 100px;
-    background-color:yellow;
-    transform:rotate(0px);
-    transform: translate(-100px,-100px);
-    
-  }
-  /*
-  .btn3::after{
-    content:""; 
-    width: 200px;
-    height: 100px;
-    background-color:yellow;
-    transform: rotate(0deg);
-    position:absolute;
-    top: 0;
-    left: 0;
-  }
+.btn3:hover::before{
+  content:"";
+  align-content: center;
+  position: absolute;
+  width: 200px;;
+  height: 100px;
+  background-color:yellow;
+  transform: translate(-200px,-200px);
+  transition: transform 1s ease, opacity 1s ease;  }
 
-
-  /*.btn3:hover::hover{
-    content:"Rotate";
-    align-content: center;
-    position: absolute;
-    width: 200px;
-    height: 100px;
-    background-color:yellow;
-    transform: rotate(0);
-  }
   /*______________________________________________________________________________________________________*/
     .btn4 { 
       width: 200px;
@@ -153,7 +128,7 @@
     width: 200px;
     height: 100px;
     background-color: black;
-    transform: scale(0.7);
+    transform: scale(.7);
     }
 
     .btn4 p{
@@ -187,6 +162,8 @@
     width: 200px;
     height: 100px;
     background-color:purple;
-    transform: skew(25deg);  }
+    transform: skew(25deg);  
+    transition: transform 1s ease, opacity 1s ease;
+}
 
   /*______________________________________________________________________________________________________*/

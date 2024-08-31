@@ -80,8 +80,8 @@
   align-content: center;
   width: 200px;
   height: 100px;
-  background-color:gray;
-  transform: translate(0px,0px);
+  background-color:grey;
+  transform: rotateY(deg);
   position:absolute;
   top: 0;
   left: 0;
@@ -94,8 +94,9 @@
   width: 200px;;
   height: 100px;
   background-color:yellow;
-  transform: translate(-200px,-200px);
+  transform: rotateX(0deg);
   transition: transform 1s ease, opacity 1s ease;  }
+
 
   /*______________________________________________________________________________________________________*/
     .btn4 { 

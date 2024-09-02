@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    gap: 100px;
+  }
+  
+  /*loader1*/
+  
+  .spinner1 {
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 3px solid rgb(201, 201, 201);
+    border-right-color: rgb(255, 230, 0);
+    animation: spinner1 1s infinite linear;
+  }
+  @keyframes spinner1 {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /*loader2*/
+  
+  .loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .spinner2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation: spinner2 1s linear infinite;
+  }
+  
+  @keyframes spinner2 {
+    0% {
+      transform: rotate(0deg);
+      box-shadow: 0 1px 0 rgb(255, 230, 0);
+    }
+  
+    50% {
+      transform: rotate(180deg);
+      box-shadow: 0 1px 0 rgb(255, 230, 0);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+      box-shadow: 0 1px 0 rgb(255, 230, 0);
+    }
+  }
+  
+  /*Loader3*/
+  
+  .loader3 {
+    width: 15px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    animation: l5 1s infinite linear alternate;
+  }
+  
+  @keyframes l5 {
+    0% {
+      box-shadow: 20px 0 #db9334, -20px 0 #db933471;
+      background: #db9334;
+    }
+    33% {
+      box-shadow: 20px 0 #db9334, -20px 0 #db933471;
+      background: #db933471;
+    }
+    66% {
+      box-shadow: 20px 0 #db933471, -20px 0 #db9334;
+      background: #db933471;
+    }
+    100% {
+      box-shadow: 20px 0 #db933471, -20px 0 #db9334;
+      background: #db9334;
+    }
+  }
+  
+  /*Loader4*/
+  
+  .load {
+    display: flex;
+    border-radius: 50%;
+    flex-direction: row;
+  }
+  
+  .loader4 {
+    width: 2em;
+    height: 2em;
+    margin: 0.4em;
+    scale: 0;
+    border-radius: 50%;
+    background: rgb(231, 204, 4);
+    animation: loading_492 2s ease infinite;
+    animation-delay: 1s;
+  }
+  
+  @keyframes loading_492 {
+    50% {
+      scale: 1;
+    }
+  }
+  
+  .loader4:nth-child(2) {
+    animation-delay: 1.3s;
+  }
+  
+  .loader4:nth-child(3) {
+    animation-delay: 1.7s;
+  }

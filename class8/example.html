@@ -3,22 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Transition on Hover State</title>
-    <style>
-      .box-hover {
-        width: 100px;
-        height: 100px;
-        background-color: red;
-      }
-
-      .box-hover:hover {
-        background-color: blue;
-        transform: skew(23deg);
-        transition: background-color 1s ease, transform 1s ease; /* Transition only on hover */
-      }
-    </style>
+    <link
+      rel="stylesheet"
+      href="example.css"
+    />
+    
+    <title>Buttons transition- Ex 14.2</title>
   </head>
   <body>
-    <div class="box-hover"></div>
+    <section class="btn-section">
+      <button class="btn-transition btn-translate-y"></button>
+      <button class="btn-transition btn-translate-x">Translate X</button>
+      <button class="btn-transition btn-rotate">Rotate</button>
+      <button class="btn-transition btn-scale"></button>
+      <button class="btn-transition btn-skew"></button>
+    </section>
   </body>
 </html>
